@@ -40,15 +40,16 @@ This app allows users to add, edit, view, and sort contacts, making it easy to m
 
 ### Backend
 1. Navigate to the `backend` directory.
-2. Run the following command to install dependencies:
+2. Replace MONGO_URI in .env with your mongo uri
+3. Run the following command to install dependencies:
     ```bash
     npm install
     ```
-3. Start the backend server with:
+4. Start the backend server with:
     ```bash
     npm run start
     ```
-4. The backend will run on `http://localhost:5000` by default.
+5. The backend will run on `http://localhost:5000` by default.
 
 ## API Endpoints
 - **GET `/contacts`**: Fetch all contacts.
