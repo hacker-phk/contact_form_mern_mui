@@ -29,6 +29,7 @@ This app allows users to add, edit, view, and sort contacts, making it easy to m
 1. Navigate to the frontend directory.
 2. Run the following command to install dependencies:
     ```bash
+    
     npm install
     ```
 3. Start the frontend server with:
@@ -54,7 +55,7 @@ This app allows users to add, edit, view, and sort contacts, making it easy to m
 - **POST `/contacts`**: Add a new contact.
 - **PUT `/contacts/:id`**: Edit an existing contact.
 - **DELETE `/contacts/:id`**: Delete a contact.
-- **GET `/contacts/sort`**: Sort contacts based on query parameters.
+
 
 ## Additional Notes
 - Make sure MongoDB is running locally or connected to a cloud instance.
